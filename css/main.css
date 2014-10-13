@@ -1,0 +1,161 @@
+body{
+	background-color: black;
+}
+
+.container{
+	background: url(../images/livros.jpg) no-repeat center fixed;}
+	
+#header{
+	background-color: rgba(255, 10, 132, .8);
+	width: 90%;
+	margin: 20px;
+}
+
+h1{
+	width: 300px;
+}
+
+
+nav{
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	background-color: rgba(255, 10, 132, .8);
+	color: black;
+	width: 150px; 
+	margin: 1.129944% auto;
+	text-align: center;
+	border: 2px solid; 
+	border-radius: 3px;
+	text-decoration: none;
+	}
+	
+#homepg{
+	width: 90%;
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+/* INDEX/HOME PAGE CSS */
+#slogan{
+	width: 90%;
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+	font: 2em;
+	color: #969393;
+	}
+	
+	
+#exploreBox{
+	background-color: rgba(255, 10, 132, .8);
+	width: 600px;
+	margin: 20px;
+	padding: 20px;	
+	text-align:center;
+	border: 2px solid black;
+	border-radius: 3px;
+	line-height: 125%;
+	}
+	
+#joinBox{
+	background-color: rgba(255, 10, 132, .8);
+	width: 300px;
+	
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid black;
+	border-radius: 3px
+}
+
+ul li{
+	list-style-type: none;
+}
+
+
+
+/* JOIN CSS */
+#joinForm, #signIn{
+	background-color: rgba(255, 10, 132, .8);
+	width: 300px;
+	margin-top: 100px;
+	margin-left: 100px;
+	/*margin: 50%*/;
+	padding: 20px;
+	border: 2px solid black;
+	border-radius: 3px;
+	line-height: 150%;
+	
+}
+
+
+
+/* EXPLORE PAGE */
+#categories{
+	background-color: rgba(255, 10, 132, .8);
+	width: 60%;
+	height: 60%;
+	margin: 40px;
+	}
+	
+#categories:nth-child:{
+	padding: 30px;
+}
+
+img #categories {
+	width: 100px;
+}
+
+nav ul li a{
+	display: block;
+	background-color: rgba(255, 10, 132, .8);
+	color: black;
+	width: 150px; 
+	margin: 1.129944% auto;
+	text-align: center;
+	border: 2px solid; 
+	border-radius: 3px;
+	text-decoration: none;
+	}
+
+/* BUSINESS PAGE */
+#busList, .subHead, #profileSection{
+	background-color: rgba(255, 10, 132, .8);
+	width: 60%;
+	padding: 20px;
+	margin: 20px;
+	border: 2px solid; 
+	border-radius: 3px;
+	text-align: center;
+	}
+	
+#linkedList{
+	background-color: rgba(255, 10, 132, .8);
+	padding: 20px;
+	margin: 20px;}
+	
+.holder{
+	width: 100px;
+}
+
+#categories ul li a{
+	display: block;
+	/*background-color: rgba(255, 10, 132, .8);*/
+	color: black;
+	width: 150px; 
+	margin: 1.129944% auto;
+	text-align: center;
+	/*border: 2px solid; */
+	border-radius: 3px;
+	text-decoration: none;
+	}
+	
+#categories ul li a hover:{	
+	color: #CC086A;
+}
