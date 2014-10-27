@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Enlighten</title>
+	<title>Enlighten-Sign In</title>
     <meta name="description" content="Enlighten is a one stop shop for free learning outlets. Filled with free educational sites and services, Enlighten is there when you need it.">
     <meta charset="utf-8"/>
     <meta name="author" content="Danielle T Monroe">
@@ -10,39 +10,81 @@
 
 </head>
 <body>
-	<div class="container">
-	<div class="row"><header id="header">
-		<h1 class="col-mid-4"> Enlighten </h1>
-        <p class="col-mid-4"> Enlighten is your one stop shop for free learning outlets </p>
-		<nav class="col-mid-4">
-			<ul>
-				<li><a href="./index.html"> HOME </a></li>
-				<li><a href="./explore.html"> EXPLORE </a></li>
-				<LI><a href="./profile.html"> PROFILE </a></li>
-			</ul>
-		</nav>
-	</header></div>
+	<div class="containerS">
+	<header class="row">
+          <div class="col-md-4">
+          	<h1> Enlighten </h1>
+            </div>
+          <div class="col-md-4">
+         	 <p id="slogan"> <em> Knowledge at your fingertips</em> </p>
+          </div>
+          <div class="col-md-4">
+            <nav class="nav nav-pills">
+                <ul>
+                    <li class="active"><a href="./index.html"> HOME </a></li>
+                    <li><a href="./explore.html"> EXPLORE </a></li>
+                    <li><a href="./signIn.html"> SIGN IN </a></li>
+                </ul>
+            </nav>
+          </div>
+      </header>
 <div class="row">
-	<h2 class="subHead"> Sign-In </h2>
-           <div col-min-1> 
-           <form id="signIn">
-    
-                <label> Member ID</label>
-                <input type="text" name="memberID"
-                       placeholder="JSmith@devlink.com"
-                       class="masterTooltip"
-                       title="Enter Memeber ID" id="memberID" required/></br>
-                <label> Password</label>
-                <input type="password" name="password" placeholder="password"
-                       class="masterTooltip"
-                       title="Enter Password" id="password" required/></br></br>
-                <button class="signIn">
-                    <a href="profile.html"> Sign In </a></button>
-                    <p> OR </p>
-                    <button class="join">
-                    <a href="join.html"> Join </a></button>
-            </form></div>
+	<div class="col-md-12">
+    	<h2 id="signInSubHead"> Sign-In </h2>
     </div>
+          <div class="row"> 
+          	<div class="col-md-6 col-md-offset-3"> 
+             <div id="signIn">
+				<form role="form">
+      
+                 <div class="form-group">
+                    <label> Member ID</label>
+                    <input type="text" name="memberID"
+                           placeholder="JSmith@devlink.com"
+                           class="masterTooltip"
+                           title="Enter Memeber ID" id="memberID" required/></br>
+                 </div>
+                 <div class="form-group">
+                    <label> Password</label>
+                    <input type="password" name="password" placeholder="password"
+                           class="masterTooltip"
+                           title="Enter Password" id="password" required/></br>
+                  </div>
+                 
+                  <div class="checkbox">
+                  	<label>
+                    	<input type="checkbox"> Remember Me
+                    </label>
+                 </div>
+                 <div class="form-group">
+                    <button type="button" class=" btn btn-default btn-sm">
+                        <a href="profile.html"> Sign In </a></button>
+                        <p> OR </p>
+                      <button type="button" class=" btn btn-default btn-sm">
+                        <a href="join.html"> Join </a></button>
+                 </div> 
+              </form>
+</div>
+            </div>
+            
+          </div>
+            
+            
+    </div>
+    
+     <footer class="row">
+    	<div class="col-lg-3">
+        	<p class="copyright"> 2014 Enlighten.com</p>
+            </div><!--Ends Copyright Column-->
+            <div class="col-lg-5 col-lg-offset-2">
+            <ul>
+            	<li> About Enlighten </li>
+                <li> Contact Us </li>
+                <li> Site Feedback </li>
+            </ul>
+            </div><!--Ends ul Column-->
+        </footer><!--Ends Footer/Row-->
+    
 
 </div>
 </body>

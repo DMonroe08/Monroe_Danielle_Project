@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Enlighten</title>
+	<title>Enlighten-Home</title>
     <meta name="description" content="Enlighten is a one stop shop for free learning outlets. Filled with free educational sites and services, Enlighten is there when you need it.">
     <meta charset="utf-8"/>
     <meta name="author" content="Danielle T Monroe">
@@ -11,18 +11,24 @@
 
 </head>
 <body>
-<div class="container">
-	<div class="row"><header class="header">
-		<h1 class="col-mid-4"> Enlighten </h1>
-        <p class="col-mid-4"> Enlighten is your one stop shop for free learning outlets </p>
-		<nav class="col-mid-4">
-			<ul>
-				<li><a href="./index.html"> HOME </a></li>
-				<li><a href="./explore.html"> EXPLORE </a></li>
-				<LI><a href="./profile.html"> PROFILE </a></li>
-			</ul>
-		</nav>
-	</header></div>
+<div class="container" img>
+	 <header class="row">
+          <div class="col-md-4">
+          	<h1> Enlighten </h1>
+            </div>
+          <div class="col-md-4">
+         	 <p id="slogan"> <em> Knowledge at your fingertips</em> </p>
+          </div>
+          <div class="col-md-4">
+            <nav class="nav nav-pills">
+                <ul>
+                    <li class="active"><a href="./index.html"> HOME </a></li>
+                    <li><a href="./explore.html"> EXPLORE </a></li>
+                    <li><a href="./signIn.html"> SIGN IN </a></li>
+                </ul>
+            </nav>
+          </div>
+      </header>
 	<div id="homepg">
 		
 <div class="row">
@@ -33,26 +39,42 @@
 		progress,  and even share your success with your friends, family, and co-workers. Also
 		Enilghten makes it possible to learn different skills from different sites while keeping
 		it all neatly in one place. </p>
-		<p> Aread of interest (Separate with a comma) <input type="text" name="search" placeholder="Example: 									Mathematics, Administration" /></p>
-		<button id="exploreBtn"><a href="explore.html"> Explore </a></button>
+			<p> Aread of interest (Separate with a comma) <input type="text" name="search" 	placeholder="Example: Mathematics, Administration" /></p>
+		<div id="exploreBtn">
+        	<button type="button" class=" btn btn-default btn-sm"><a href="explore.html"> Explore </a></button>
+        </div>
 		</section></div>
         
 		<div class="col-lg-4"><aside id="joinBox">
 		<h2> Join the Adventure! </h2>
 		<p> Join <em>Enlighten</em> today and begin your journey of enlightenment. </p>
-		<ul> <p> Joining is:</p>
+		<ul> <p><b> Joining is:</b></p>
 			<li> FREE </li>
 			<li> Easy </li>
 		</ul>
-		<ul> <p> Membership allows you to: </p>
+		<ul> <p> <b>Membership allows you to:</b> </p>
 			<li> Chat with other <em>Enlighteners</em> </li>
 			<li> Track, Save, and Share your proggress </li>
 			<li> Rate sites by your experience </li>
 		</ul>
-		<button id="joinbtn"><a href="join.html"> JOIN </a></button>
+		<button type="button" class=" btn btn-default btn-sm"><a href="join.html"> JOIN </a></button>
 		</aside></div></div>
 </div>
+
+ <footer class="row">
+    	<div class="col-lg-3">
+        	<p class="copyright"> 2014 Enlighten.com</p>
+            </div><!--Ends Copyright Column-->
+            <div class="col-lg-5 col-lg-offset-2">
+            <ul>
+            	<li> About Enlighten </li>
+                <li> Contact Us </li>
+                <li> Site Feedback </li>
+            </ul>
+            </div><!--Ends ul Column-->
+        </footer><!--Ends Footer/Row-->
+    
 </div>
-	<script type="textjavascript" scr="js/bootstap.js"></script>
+	
 </body>
 </html>

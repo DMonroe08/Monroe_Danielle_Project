@@ -1,117 +1,163 @@
 body{
-	background-color: black;
+	background-color: #000;
 }
 
 .container{
 	background: url(../images/livros.jpg) no-repeat center fixed;
 	margin: 0 auto;
+    width: 90%;
 	}
 	
-.header{
-	background: #ff0a84; /* Old browsers */
-
-background: -moz-linear-gradient(top,  #ff0a84 0%, #fff9fc 23%, #f0eff9 78%, #ff0a84 100%); /* FF3.6+ */
-
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff0a84), color-stop(23%,#fff9fc), color-stop(78%,#f0eff9), color-stop(100%,#ff0a84)); /* Chrome,Safari4+ */
-
-background: -webkit-linear-gradient(top,  #ff0a84 0%,#fff9fc 23%,#f0eff9 78%,#ff0a84 100%); /* Chrome10+,Safari5.1+ */
-
-background: -o-linear-gradient(top,  #ff0a84 0%,#fff9fc 23%,#f0eff9 78%,#ff0a84 100%); /* Opera 11.10+ */
-
-background: -ms-linear-gradient(top,  #ff0a84 0%,#fff9fc 23%,#f0eff9 78%,#ff0a84 100%); /* IE10+ */
-
-background: linear-gradient(to bottom,  #ff0a84 0%,#fff9fc 23%,#f0eff9 78%,#ff0a84 100%); /* W3C */
-
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0a84', endColorstr='#ff0a84',GradientType=0 ); /* IE6-9 */
-
-
-	width: 90%;
-	margin: 20px;
-	font-family: 'Muli', sans-serif;
-	
-}
-
-h1{
-	width: 25%;
-	float: left;
-	margin: 2%;
-	text-shadow: 0 2px 1px rgba(255, 10, 132, .8);
-}
-
-#header p{
-	width: 25%;
-	float: left;
-	margin: 2%;
-}
-
-nav{
-	float: left;
-	width: 25%;
-	margin: 2%;
-	
-}
-nav ul{
-	float: right;
-	list-style-type: none;
-	
-}
-
-nav ul li{
-	display: inline;
-}
-
-nav ul li a{
-	
-	background-color: rgba(255, 10, 132, .8);
-	color: black;
-	width: 100px; 
-	margin: 1.129944% auto;
-	text-align: center;
-	border: 2px solid; 
-	border-radius: 3px;
-	text-decoration: none;
-	
-	}
-	
-#homepg{
-	width: 90%;
-	height: 100%;
+.containerB{
+	background: url(../images/empire.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	margin: 0 auto;
+    width: 90%;
+	min-height: 100%;
+	}
+	
+.containerC{
+	background: url(../images/keyboard.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+    width: 90%;
+	}	
+	
+.containerE{
+	background: url(../images/magnify.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+    width: 90%;
+	height: 100%;
+	}	
+	
+.containerJ{
+	background: url(../images/login.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+    width: 90%;
+}
+
+.containerL{
+	background: url(../images/gavel.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+    width: 90%;
+	min-height: 100%;
+	}
+	
+.containerM{
+	background: url(../images/math.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+    width: 90%;
+	min-height: 100%;
+	}
+	
+.containerP{
+	background: url(../images/stack.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+    width: 90%;
+	min-height: 100%;
+	}
+	
+.containerS{
+	background: url(../images/book.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+    width: 90%;
+	min-height: 100%;
+	}
+	
+header{
+	background-color: #fff;
+	
+}
+
+#icon{
+	text-shadow: 0 2px 1px rgba(255, 10, 132, .9);
+    font-variant: small-caps;
+}
+
+nav, #slogan{
+    text-align: center;
+	padding-top: 30px;
+	font-variant: small-caps;
+	font: 2em;
 }
 
 
-/* INDEX/HOME PAGE CSS */
-#slogan{
-	width: 90%;
-	padding: 20px;
-	margin: 20px;
-	text-align: center;
-	font: 2em;
-	color: #969393;
-	}
+nav ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+nav ul li{
+	display: inline;
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: rgba(255, 10, 132, .9);
+	margin: 1%;
+
+}
+nav a{
+
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 1%;
+}
+
+nav a:hover{
+    background-color: #000;
+    color: rgba(255, 10, 132, .9);
+}
+
 	
+/* INDEX/HOME PAGE CSS */
 	
 #exploreBox{
-	background-color: rgba(255, 10, 132, .8);
-	width: 600px;
-	margin: 20px;
+	background-color: rgba(255, 10, 132, .9);
+	/*width: 600px;*/
+    margin: 100px 20px 30px;
 	padding: 20px;	
 	text-align:center;
-	border: 2px solid black;
+	border: 2px double black;
 	border-radius: 3px;
 	line-height: 125%;
 	}
 	
 #joinBox{
-	background-color: rgba(255, 10, 132, .8);
-	width: 300px;
-	
-	margin: 20px;
+	background-color: rgba(255, 10, 132, .9);
+	/*width: 300px;*/
+	margin: 100px 20px 30px;
 	padding: 20px;
-	border: 2px solid black;
+	border: 2px double #000;
 	border-radius: 3px
 }
 
@@ -120,7 +166,11 @@ ul li{
 }
 
 .subHead{
-	-webkit-box-shadow: 0 3px 2px rgba(170, 167, 167, .7);
+	background-color: rgba(255, 10, 132, .9);
+	margin-top: 100px;
+	border: 2px solid; 
+	border-radius: 3px;
+	padding: 15px
 }
 
 #exploreBtn{
@@ -321,98 +371,65 @@ ul li{
   }
 }
 
-/* JOIN CSS */
+/* JOIN & SIGN IN CSS */
 #joinForm, #signIn{
-	background-color: rgba(255, 10, 132, .8);
+	background-color: rgba(255, 10, 132, .9);
 	width: 300px;
 	margin-top: 100px;
 	margin-left: 100px;
-	/*margin: 50%*/;
+
 	padding: 20px;
-	border: 2px solid black;
+	border: 2px solid #FFF;
 	border-radius: 3px;
 	line-height: 150%;
 	
 }
 
+#joinSubHead, #signInSubHead{
+	text-align:center;
+	background-color: rgba(255, 10, 132, .9);
+	padding: 15px;
+}
 
-
-/* EXPLORE PAGE */
-#categories{
-	background-color: rgba(255, 10, 132, .8);
-	width: 60%;
-	height: 60%;
-	margin: 40px;
-	background-size: 100% 100%;
-	}
+/* Information Sections */
 	
-#categories:nth-child:{
-	padding: 30px;
-}
-
-img #categories {
-	width: 100px;
-}
-
-nav ul li a{
-	display: block;
-	background-color: rgba(255, 10, 132, .8);
-	color: black;
-	width: 150px; 
-	margin: 1.129944% auto;
-	text-align: center;
+.infoList, #linkedList{
+	background-color: rgba(255, 10, 132, .9);
 	border: 2px solid; 
 	border-radius: 3px;
-	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+	margin-top: 100px;
 	}
 
-/* BUSINESS PAGE */
-#busList, .subHead, #profileSection{
-	background-color: rgba(255, 10, 132, .8);
-	width: 60%;
-	padding: 20px;
+
+	
+#profileSection{
+	background-color: #FFF;
+	padding: 10px 5px 10px 20px;
+	margin-top: 100px;
+	
+}
+	
+.infoList:first-child{
+	text-align: center;
+}
+
+/* Footer */
+footer{
+	background-color: white;
+	margin-top: 100px
+	
+}
+footer ul{
 	margin: 20px;
-	border: 2px solid; 
-	border-radius: 3px;
-	text-align: center;
-	}
-	
-#linkedList{
-	background-color: rgba(255, 10, 132, .8);
-	padding: 20px;
-	margin: 20px;}
-	
-.holder{
-	width: 100px;
 }
 
-/*#categories ul li a{
-//	display: block;
-//	background-color: rgba(255, 10, 132, .8);
-//	color: black;
-//	width: 150px; 
-//	margin: 1.129944% auto;
-//	text-align: center;
-//	border: 2px solid; 
-	border-radius: 3px;
-	text-decoration: none;
-	}
-	
-#categories ul li a hover:{	
-	color: #CC086A;
-}*/
+footer ul li{
+	display: inline;
+	margin: 20px
+}
 
-#flex-container {
-	display:-webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	margin: 2em;
-	border: 1px solid #333;
-	width: 400px;
-	-webkit-flex-direction: row;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-} 
+.copyright{
+	margin: 20px;
+}
